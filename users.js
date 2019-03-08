@@ -1,0 +1,31 @@
+const users = [{
+  "id": 1,
+  "name": "Krisha",
+  "email": "kmahoney0@springer.com",
+  "gender": "Male",
+  "birthday": "1990-08-15"
+}, {
+  "id": 2,
+  "name": "Rayner",
+  "email": "rmarquot1@gov.uk",
+  "gender": "Male",
+  "birthday": "2002-03-15"
+}, {
+  "id": 3,
+  "name": "Jojo",
+  "email": "jredmille2@aboutads.info",
+  "gender": "Female",
+  "birthday": "2005-10-22"
+}, {
+  "id": 4,
+  "name": "Valentino",
+  "email": "vrattenberie3@hp.com",
+  "gender": "Male",
+  "birthday": "1993-09-29"
+}, {
+  "id": 5,
+  "name": "Allene",
+  "email": "amccrostie4@mapquest.com",
+  "gender": "Female",
+  "birthday": "2000-06-17"
+}];
