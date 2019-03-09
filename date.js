@@ -1,10 +1,14 @@
 
-function adult(birthday) {
-  return moment(birthday).isBefore(moment().subtract(18, 'y'))
-}
-
 function adultMoment(birthday) {
+  return moment(birthday).isBefore(moment().subtract(18, 'y'));
 }
 
-// console.log( adult('1990-01-01') );
-// console.log( adult('2002-01-01') );
+function adult(birthday) {
+  birthday = new Date(birthday);
+
+  let minDate = new Date();
+  minDate.setFullYear(minDate.getFullYear() - 18);
+
+  return birthday < minDate;
+}
+
